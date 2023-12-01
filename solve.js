@@ -3,7 +3,7 @@ import colors from 'colors';
 export default async (year, day, solutionsPromise, inputsPromise) => {
   // @TODO: Fix this jank
   const { part1, part2, parseInput } = await solutionsPromise;
-  const { getInput } = await inputsPromise;
+  const { getInput, getExampleInput } = await inputsPromise;
 
   console.log('                                       '.bgRed);
 
